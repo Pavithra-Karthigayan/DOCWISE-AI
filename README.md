@@ -1,5 +1,5 @@
 # **🏥 DOCWISE AI**
-### **An Intelligent Medical Report Analysis and Doctor Recommendation System**
+### **A Smartr Medical History Analyzer and Doctor Recommendation System**
 
 **DOCWISE AI** is an AI-powered healthcare intelligence platform that automates medical PDF report summarization and provides specialist doctor recommendations based on patient symptoms and location.  
 The system leverages **Natural Language Processing (NLP)** and **Machine Learning** techniques to support faster clinical decision-making and improve healthcare accessibility.
