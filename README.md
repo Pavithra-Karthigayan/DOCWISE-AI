@@ -52,11 +52,7 @@ DOCWISE_AI/
 ├── modules/
 │   ├── disease_mapper.py
 │   ├── doctor_filtering.py
-│   └── **init**.py
-│
-├── notebooks/
-│   ├── accuracy_evaluation.ipynb
-│   └── performance_analysis.ipynb
+│   └── init.py
 │
 ├── figures/
 │   ├── system_architecture.png
@@ -140,8 +136,4 @@ The application will be available at:
 * Multi-language medical report summarization
 * Integration with telemedicine platforms
 
-```
-
-
-Just tell me what’s next 😄
 ```
