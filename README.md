@@ -67,7 +67,7 @@ streamlit run app.py
 The application will be available at:
 http://localhost:8501
 
-📊 Sample Outputs
+### 📊 Sample Outputs
 
 🔹 Medical Report Summarization
 
@@ -91,7 +91,7 @@ Recommended specialist: Endocrinologist
 
 Top doctors ranked by experience and ratings
 
-📈 Performance Metrics
+### 📈 Performance Metrics
 
 High-quality abstractive summarization using transformer models
 
@@ -101,7 +101,7 @@ Real-time doctor filtering
 
 Scalable for telemedicine platforms
 
-🧪 Evaluation
+### 🧪 Evaluation
 
 Summary compression ratio
 
@@ -113,11 +113,11 @@ Doctor recommendation relevance
 
 Evaluation notebooks are available in the notebooks/ directory.
 
-🎬 Demo Video
+### 🎬 Demo Video
 
 https://drive.google.com/file/d/1WHBkxeTZMh_nP_64iHMWtXCepJPM6pZI/view?usp=drive_link
 
-🔮 Future Enhancements
+### 🔮 Future Enhancements
 
 OCR support for scanned medical PDFs
 
