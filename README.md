@@ -9,31 +9,31 @@ The system leverages **Natural Language Processing (NLP)** and **Machine Learnin
 ## **🚀 Features**
 
 ### **👨‍⚕️ Doctor Dashboard**
-- Upload medical PDF reports  
-- Automatic medical text extraction  
-- Transformer-based medical report summarization  
-- Adjustable summary length  
-- Downloadable summary output  
-- Processing time and compression metrics  
+- Upload medical PDF reports
+- Automatic medical text extraction
+- Transformer-based medical report summarization
+- Adjustable summary length
+- Downloadable summary output
+- Processing time and compression metrics
 
 ### **🧑‍🤝‍🧑 Patient Dashboard**
-- Symptom or disease-based input  
-- Location-aware doctor filtering  
-- Specialist prediction  
-- Doctor ranking based on experience and ratings  
-- Clean and user-friendly interface  
+- Symptom or disease-based input
+- Location-aware doctor filtering
+- Specialist prediction
+- Doctor ranking based on experience and ratings
+- Clean and user-friendly interface
 
 ---
 
 ## **🧠 Technologies Used**
 - **Python 3.9+**
-- **Streamlit** – Web application framework  
-- **Hugging Face Transformers** – Medical text summarization  
-- **BART (facebook/bart-large-cnn)** – Transformer model  
-- **PyPDF2** – PDF text extraction  
-- **Pandas** – Data handling  
-- **Machine Learning** – Disease–specialist mapping logic  
-- **Matplotlib** – Performance graphs and system diagrams  
+- **Streamlit** – Web application framework
+- **Hugging Face Transformers** – Medical text summarization
+- **BART (facebook/bart-large-cnn)** – Transformer model
+- **PyPDF2** – PDF text extraction
+- **Pandas** – Data handling
+- **Machine Learning** – Disease–specialist mapping logic
+- **Matplotlib** – Performance graphs and system diagrams
 
 ---
 
@@ -66,11 +66,7 @@ DOCWISE_AI/
 
 ## **⚙️ Installation**
 
-### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/your-username/docwise-ai.git
-cd docwise-ai
-2️⃣ Install Dependencies
+### ** Install Dependencies
 pip install -r requirements.txt
 ▶️ Run the Application
 streamlit run app.py
@@ -121,7 +117,11 @@ Specialist prediction accuracy
 
 Doctor recommendation relevance
 
-📁 Evaluation notebooks are available in the notebooks/ directory.
+Evaluation notebooks are available in the notebooks/ directory.
+
+🎬 Demo Video
+
+https://drive.google.com/file/d/1WHBkxeTZMh_nP_64iHMWtXCepJPM6pZI/view?usp=drive_link
 
 🔮 Future Enhancements
 
@@ -130,6 +130,3 @@ OCR support for scanned medical PDFs
 Multi-language medical report summarization
 
 Integration with telemedicine platforms
-
-## **🎬 Demo Video**
-https://drive.google.com/file/d/1WHBkxeTZMh_nP_64iHMWtXCepJPM6pZI/view?usp=drive_link
