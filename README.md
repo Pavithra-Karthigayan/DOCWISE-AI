@@ -37,20 +37,23 @@ The system leverages **Natural Language Processing (NLP)** and **Machine Learnin
 
 ---
 ## 🏗️ Project Architecture
+```text
 DOCWISE_AI/
 │
 ├── app.py
 ├── requirements.txt
 │
 ├── data/
-│   └── doctor_profiles.csv
+│   ├── doctor_profiles.csv
 │   └── disease_to_doctor.csv
+│
 ├── modules/
 │   ├── disease_mapper.py
 │   ├── doctor_filtering.py
 │   └── __init__.py
-
----
+│
+└── README.md
+```
 
 ## ⚙️ Installation
 
