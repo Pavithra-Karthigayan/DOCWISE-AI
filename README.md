@@ -1,5 +1,5 @@
 # **🏥 DOCWISE AI**
-### **A Smartr Medical History Analyzer and Doctor Recommendation System**
+### **A Smart Medical History Analyzer and Doctor Recommendation System**
 
 **DOCWISE AI** is an AI-powered healthcare intelligence platform that automates medical PDF report summarization and provides specialist doctor recommendations based on patient symptoms and location.  
 The system leverages **Natural Language Processing (NLP)** and **Machine Learning** techniques to support faster clinical decision-making and improve healthcare accessibility.
@@ -39,7 +39,6 @@ The system leverages **Natural Language Processing (NLP)** and **Machine Learnin
 
 ## **🏗️ Project Architecture**
 
-```
 
 DOCWISE_AI/
 │
@@ -47,22 +46,21 @@ DOCWISE_AI/
 ├── requirements.txt
 │
 ├── data/
-│   └── doctor_profiles.csv
+│ └── doctor_profiles.csv
 │
 ├── modules/
-│   ├── disease_mapper.py
-│   ├── doctor_filtering.py
-│   └── init.py
+│ ├── disease_mapper.py
+│ ├── doctor_filtering.py
+│ └── init.py
 │
 ├── figures/
-│   ├── system_architecture.png
-│   ├── pdf_workflow.png
-│   ├── summarization_flow.png
-│   └── doctor_recommendation_flow.png
+│ ├── system_architecture.png
+│ ├── pdf_workflow.png
+│ ├── summarization_flow.png
+│ └── doctor_recommendation_flow.png
 │
 └── README.md
 
-````
 
 ---
 
@@ -72,73 +70,66 @@ DOCWISE_AI/
 ```bash
 git clone https://github.com/your-username/docwise-ai.git
 cd docwise-ai
-````
-
-### **2️⃣ Install Dependencies**
-
-```bash
+2️⃣ Install Dependencies
 pip install -r requirements.txt
-```
-
-### **▶️ Run the Application**
-
-```bash
+▶️ Run the Application
 streamlit run app.py
-```
 
 The application will be available at:
-**[http://localhost:8501](http://localhost:8501)**
+http://localhost:8501
 
----
+📊 Sample Outputs
+🔹 Medical Report Summarization
 
-## **📊 Sample Outputs**
+Input PDF size: 301 KB
 
-### **🔹 Medical Report Summarization**
+Original words: 2578
 
-* Input PDF size: **301 KB**
-* Original words: **2578**
-* Summary words: **427**
-* Compression ratio: **83.4%**
-* Processing time: **~99 seconds**
+Summary words: 427
 
-### **🔹 Doctor Recommendation**
+Compression ratio: 83.4%
 
-* Input disease: **Diabetes**
-* Location: **Madurai**
-* Recommended specialist: **Endocrinologist**
-* Top doctors ranked by experience and ratings
+Processing time: ~99 seconds
 
----
+🔹 Doctor Recommendation
 
-## **📈 Performance Metrics**
+Input disease: Diabetes
 
-* High-quality abstractive summarization using transformer models
-* Accurate specialist mapping based on symptoms
-* Real-time doctor filtering
-* Scalable for telemedicine platforms
+Location: Madurai
 
----
+Recommended specialist: Endocrinologist
 
-## **🧪 Evaluation**
+Top doctors ranked by experience and ratings
 
-* Summary compression ratio
-* Processing time analysis
-* Specialist prediction accuracy
-* Doctor recommendation relevance
+📈 Performance Metrics
 
-📁 Evaluation notebooks are available in the **`notebooks/`** directory.
+High-quality abstractive summarization using transformer models
 
----
+Accurate specialist mapping based on symptoms
 
-## **🔮 Future Enhancements**
+Real-time doctor filtering
 
-* OCR support for scanned medical PDFs
-* Multi-language medical report summarization
-* Integration with telemedicine platforms
+Scalable for telemedicine platforms
 
-```
+🧪 Evaluation
+
+Summary compression ratio
+
+Processing time analysis
+
+Specialist prediction accuracy
+
+Doctor recommendation relevance
+
+📁 Evaluation notebooks are available in the notebooks/ directory.
+
+🔮 Future Enhancements
+
+OCR support for scanned medical PDFs
+
+Multi-language medical report summarization
+
+Integration with telemedicine platforms
+
 ## **🎬 Demo Video**
 https://drive.google.com/file/d/1WHBkxeTZMh_nP_64iHMWtXCepJPM6pZI/view?usp=drive_link
-
-```
-
