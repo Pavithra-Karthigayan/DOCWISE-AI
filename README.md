@@ -1,14 +1,14 @@
-# **🏥 DOCWISE AI**
-### **A Smart Medical History Analyzer and Doctor Recommendation System**
+# 🏥 DOCWISE AI
+## A Smart Medical History Analyzer and Doctor Recommendation System
 
 **DOCWISE AI** is an AI-powered healthcare intelligence platform that automates medical PDF report summarization and provides specialist doctor recommendations based on patient symptoms and location.  
 The system leverages **Natural Language Processing (NLP)** and **Machine Learning** techniques to support faster clinical decision-making and improve healthcare accessibility.
 
 ---
 
-## **🚀 Features**
+## 🚀 Features
 
-### **👨‍⚕️ Doctor Dashboard**
+### 👨‍⚕️ Doctor Dashboard
 - Upload medical PDF reports
 - Automatic medical text extraction
 - Transformer-based medical report summarization
@@ -16,7 +16,7 @@ The system leverages **Natural Language Processing (NLP)** and **Machine Learnin
 - Downloadable summary output
 - Processing time and compression metrics
 
-### **🧑‍🤝‍🧑 Patient Dashboard**
+### 🧑‍🤝‍🧑 Patient Dashboard
 - Symptom or disease-based input
 - Location-aware doctor filtering
 - Specialist prediction
@@ -25,21 +25,19 @@ The system leverages **Natural Language Processing (NLP)** and **Machine Learnin
 
 ---
 
-## **🧠 Technologies Used**
-- **Python 3.9+**
-- **Streamlit** – Web application framework
-- **Hugging Face Transformers** – Medical text summarization
-- **BART (facebook/bart-large-cnn)** – Transformer model
-- **PyPDF2** – PDF text extraction
-- **Pandas** – Data handling
-- **Machine Learning** – Disease–specialist mapping logic
-- **Matplotlib** – Performance graphs and system diagrams
+## 🧠 Technologies Used
+- Python 3.9+
+- Streamlit – Web application framework
+- Hugging Face Transformers – Medical text summarization
+- BART (facebook/bart-large-cnn) – Transformer model
+- PyPDF2 – PDF text extraction
+- Pandas – Data handling
+- Machine Learning – Disease–specialist mapping logic
+- Matplotlib – Performance graphs and system diagrams
 
 ---
 
-## **🏗️ Project Architecture**
-
-
+## 🏗️ Project Architecture
 DOCWISE_AI/
 │
 ├── app.py
@@ -60,14 +58,14 @@ DOCWISE_AI/
 │ └── doctor_recommendation_flow.png
 │
 └── README.md
-
-
 ---
 
-## **⚙️ Installation**
+## ⚙️ Installation
 
-### ** Install Dependencies
+### Install Dependencies
+
 pip install -r requirements.txt
+
 ▶️ Run the Application
 streamlit run app.py
 
