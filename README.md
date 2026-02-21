@@ -36,7 +36,6 @@ The system leverages **Natural Language Processing (NLP)** and **Machine Learnin
 - Matplotlib – Performance graphs and system diagrams
 
 ---
-
 ## 🏗️ Project Architecture
 DOCWISE_AI/
 │
@@ -44,20 +43,13 @@ DOCWISE_AI/
 ├── requirements.txt
 │
 ├── data/
-│ └── doctor_profiles.csv
-│
+│   └── doctor_profiles.csv
+│   └── disease_to_doctor.csv
 ├── modules/
-│ ├── disease_mapper.py
-│ ├── doctor_filtering.py
-│ └── init.py
-│
-├── figures/
-│ ├── system_architecture.png
-│ ├── pdf_workflow.png
-│ ├── summarization_flow.png
-│ └── doctor_recommendation_flow.png
-│
-└── README.md
+│   ├── disease_mapper.py
+│   ├── doctor_filtering.py
+│   └── __init__.py
+
 ---
 
 ## ⚙️ Installation
